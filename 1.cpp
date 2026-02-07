@@ -9,8 +9,9 @@ public:
                 if(nums[i]+nums[j]==target){for(int i=0;i<n;i++)nums.pop_back();nums.push_back(i);nums.push_back(j);return nums;}
                 
             }
-        }
+        } 
   return nums;  }
 
 };
+
 
